@@ -1,0 +1,115 @@
+
+/*PAGE TEMPLATE*/
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+    font-family: Arial;
+    list-style: none;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: white
+
+}
+
+.header    {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+   
+    
+}
+
+.header li a {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    
+}
+
+.menu li{
+    margin-left: 10px;
+    
+
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    color:white;
+}
+
+article  {
+    background-color: white;
+    text-align: center;
+    height: auto;
+    padding: 20px;
+    
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 80px auto 80px;
+
+}
+
+/*PAGE TEMPLATE*/
+
+
+article {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto 50px;
+    grid-auto-rows: minmax(min-content, max-content);
+}
+
+
+.pagination a{
+    color: black;
+}
+
+.hearder  li {
+    color:white;
+} 
+
+table {
+    text-align: center;
+}
+
+form.form-inline{ 
+    padding: 20px;
+}
+
+div.container-fluid{
+    padding: 50px;
+}
+
+footer div h5 {
+    font-size: 15px;
+    text-align: center;
+}
